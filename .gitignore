@@ -1,0 +1,8 @@
+__pycache__
+build
+dist
+data.xlsx
+img_test.jpg
+produc_available.xlsx
+run.spec
+up_img.sh
