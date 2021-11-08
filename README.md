@@ -17,7 +17,7 @@ To start with the installation, first you need to install **Python3.9**
 	source env/bin/active
 
 ### Installing dependences
-    	pip install -r requeriments.txt
+	pip install -r requeriments.txt
 
 ### Run botFB
 	./botFB.sh
