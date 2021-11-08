@@ -11,14 +11,14 @@ To start with the installation, first you need to install **Python3.9**
 	console.log("pip install virtualenv")
 
 ### Clone repo
-	console.log("git clone https://github.com/anthobio23/botFBAPP.git")
+	git clone https://github.com/anthobio23/botFBAPP.git
 
 ### Active to env.
-	console.log("source env/bin/active")
+	source env/bin/active
 
 ### Installing dependences
-    console.log("pip install -r requeriments.txt")
+    	pip install -r requeriments.txt
 
 ### Run botFB
-	console.log("./botFB.sh")
+	./botFB.sh
 Remember that the bot is still under development and there is still a lack of better usability
