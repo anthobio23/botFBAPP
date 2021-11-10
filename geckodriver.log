@@ -10493,3 +10493,537 @@ console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636406075819	geckodriver	INFO	Listening on 127.0.0.1:35819
+1636406075939	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFQDsl5"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636406081522	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFQDsl5/search.json.mozlz4", (void 0)))
+JavaScript error: resource:///modules/CustomizableUI.jsm, line 5366: TypeError: win is null
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1636406110497	geckodriver	INFO	Listening on 127.0.0.1:57171
+1636406110518	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile89esy8"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636406113022	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile89esy8/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636406124389	Marionette	INFO	Listening on port 35703
+1636406124454	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636406176464	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636406254337	Marionette	INFO	Stopped listening on port 35703
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636406320900	geckodriver	INFO	Listening on 127.0.0.1:33505
+1636406320922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqRUl6q"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636406321591	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqRUl6q/search.json.mozlz4", (void 0)))
+1636406331172	Marionette	INFO	Listening on port 34777
+1636406331283	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636406501275	Marionette	INFO	Stopped listening on port 34777
+1636406502812	geckodriver	INFO	Listening on 127.0.0.1:46175
+1636406502833	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1HvGx2"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636406503451	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1HvGx2/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636406515940	Marionette	INFO	Listening on port 35649
+1636406516048	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1636407060301	geckodriver	INFO	Listening on 127.0.0.1:51957
+1636407060796	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileex1hXr"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636407062976	Marionette	INFO	Marionette enabled
+1636407063117	Marionette	INFO	Stopped listening on port 35649
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileex1hXr/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636407074202	Marionette	INFO	Listening on port 43329
+1636407074293	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636407322114	Marionette	INFO	Stopped listening on port 43329
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636407366320	geckodriver	INFO	Listening on 127.0.0.1:42201
+1636407366346	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHxkKeX"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636407366976	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHxkKeX/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636407377799	Marionette	INFO	Listening on port 35329
+1636407377863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636407525505	geckodriver	INFO	Listening on 127.0.0.1:45791
+1636407525530	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebP6tW7"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636407526149	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebP6tW7/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636407535808	Marionette	INFO	Listening on port 33953
+1636407535932	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636407736808	geckodriver	INFO	Listening on 127.0.0.1:40201
+1636407736834	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezuX6o3"
+1636407736843	Marionette	INFO	Stopped listening on port 33953
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636407737698	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezuX6o3/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636407748870	Marionette	INFO	Listening on port 37433
+1636407748958	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636407906712	geckodriver	INFO	Listening on 127.0.0.1:49259
+1636407906740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePaSvKB"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636407907983	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePaSvKB/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636407917684	Marionette	INFO	Listening on port 39637
+1636407917771	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+1636408367818	Marionette	INFO	Stopped listening on port 39637
+1636408370702	geckodriver	INFO	Listening on 127.0.0.1:43779
+1636408370727	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileE7GQo4"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636408376265	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileE7GQo4/search.json.mozlz4", (void 0)))
+1636408389485	Marionette	INFO	Listening on port 42107
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636408389554	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636409140555	Marionette	INFO	Stopped listening on port 42107
+1636409170492	geckodriver	INFO	Listening on 127.0.0.1:34733
+1636409171462	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewGkECr"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636409172676	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewGkECr/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636409184872	Marionette	INFO	Listening on port 34189
+1636409184928	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636409309987	geckodriver	INFO	Listening on 127.0.0.1:55329
+1636409310029	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeRqlYo"
+1636409310057	Marionette	INFO	Stopped listening on port 34189
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636409310698	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeRqlYo/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636409322259	Marionette	INFO	Listening on port 37089
+1636409322394	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1636413167743	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"PlacesShutdownProgress":5},"filename":"./toolkit/components/places/Database.cpp","lineNumber":467,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/XPCOMUtils.jsm:XPCU_serviceLambda:148","resource://gre/modules/XPCOMUtils.jsm:get:62","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1714","resource:///modules/BrowserGlue.jsm:BG_observe:1019","chrome://browser/content/browser.js:_delayedStartup:2164"]}] Barrier: profile-before-change
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 446: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 446: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", "resource://gre/modules/Region.jsm", 751))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+FATAL ERROR: AsyncShutdown timeout in profile-before-change Conditions: [{"name":"Places Connection shutdown","state":{"PlacesShutdownProgress":5},"filename":"./toolkit/components/places/Database.cpp","lineNumber":467,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/XPCOMUtils.jsm:XPCU_serviceLambda:148","resource://gre/modules/XPCOMUtils.jsm:get:62","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1714","resource:///modules/BrowserGlue.jsm:BG_observe:1019","chrome://browser/content/browser.js:_delayedStartup:2164"]}] At least one completion condition failed to complete within a reasonable amount of time. Causing a crash to ensure that we do not leave the user with an unresponsive process draining resources.
+[Parent 50362, Main Thread] ###!!! ABORT: file ./toolkit/components/places/Database.cpp:467
+[Parent 50362, Main Thread] ###!!! ABORT: file ./toolkit/components/places/Database.cpp:467
+ExceptionHandler::GenerateDump cloned child 89439
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+1636414886079	Marionette	INFO	Stopped listening on port 37089
+1636579459591	geckodriver	INFO	Listening on 127.0.0.1:53637
+1636579459729	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemqPBOW"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636579478248	Marionette	INFO	Listening on port 33517
+1636579478331	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.error: Region.jsm: "Failed to fetch region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+1636579870247	geckodriver	INFO	Listening on 127.0.0.1:44145
+1636579870388	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilev9L3oK"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636579892797	Marionette	INFO	Listening on port 38395
+1636579892887	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+1636580024435	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 370: UnknownError: IDBDatabase.transaction: Can't start IndexedDB transaction during shutdown
+1636580559391	Marionette	INFO	Stopped listening on port 38395
+1636580562597	geckodriver	INFO	Listening on 127.0.0.1:41139
+1636580562650	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileexkT9B"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636580575330	Marionette	INFO	Listening on port 43161
+1636580575423	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+1636580677600	geckodriver	INFO	Listening on 127.0.0.1:45939
+1636580677618	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCG2wrp"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1636580684061	Marionette	INFO	Stopped listening on port 43161
+1636580685353	Marionette	INFO	Listening on port 46775
+1636580685418	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+1636580902676	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+[Child 67373, MediaDecoderStateMachine #1] WARNING: Decoder=7f40fec21400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - mozilla::MediaResult mozilla::RemoteAudioDecoderChild::InitIPDL(const mozilla::AudioInfo&, const OptionSet&): RemoteDecoderManager is not available.: file ./dom/media/MediaDecoderStateMachine.cpp, line 3470
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+1636581631483	geckodriver	INFO	Listening on 127.0.0.1:34799
+1636581631588	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecioWMo"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1636581650146	Marionette	INFO	Stopped listening on port 46775
+1636581652175	Marionette	INFO	Listening on port 35567
+1636581652269	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1636582242100	Marionette	INFO	Stopped listening on port 35567
+1636582248509	geckodriver	INFO	Listening on 127.0.0.1:52397
+1636582248565	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaDnBSS"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636582261484	Marionette	INFO	Listening on port 42021
+1636582261585	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+1636585139422	geckodriver	INFO	Listening on 127.0.0.1:45767
+1636585139532	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYo7Axp"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636585153178	Marionette	INFO	Listening on port 33299
+1636585153227	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1636585295268	geckodriver	INFO	Listening on 127.0.0.1:42681
+1636585295284	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVb8vSp"
+console.error: Enterprise Policies: 
+  Error parsing JSON file
+1636585296998	Marionette	INFO	Stopped listening on port 33299
+1636585304117	Marionette	INFO	Listening on port 42573
+1636585304215	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+1636585559877	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+1636585720769	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1636585881943	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+1636586411530	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: resource://activity-stream/lib/Screenshots.jsm, line 127: TypeError: cache is undefined
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1636588001712	Marionette	INFO	Stopped listening on port 42573

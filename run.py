@@ -3,7 +3,6 @@
 import time
 import sys
 import selenium
-#import unittest
 import random as rd
 import pandas as pd
 import WindowControl as wc
@@ -85,19 +84,10 @@ class publicfacebook:
 
         try:
 
-            market = self.driver.find_elements_by_xpath("//a[@class='oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 j83agx80 p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl n00je7tq arfg74bv qs9ysxi8 k77z8yql l9j0dhe7 abiwlrkh p8dawk7l bp9cbjyn cbu4d94t datstx6m taijpn5t k4urcfbm']")
+            market = self.driver.find_elements_by_xpath('//a[@aria-label="Marketplace"]')
             print(len(market))
-
-            if len(market) > 5:
-
-                market[3].click() # entrar a marketplace
-                time.sleep(rd.randint(2.0, 5.0))
-
-            else:
-
-                market = self.driver.find_elements_by_xpath('//li[@class=""]')
-                market[2].click()
-                time.sleep(rd.randint(2.0, 5.0))
+            market[0].click()
+            time.sleep(rd.randint(4.0, 6.0))
 
         except exceptions.NoSuchElementException:
 
@@ -116,7 +106,7 @@ class publicfacebook:
 
         except:
 
-            published = self.driver.find_element_by_xpath("//a[@aria-label='Crear nueva publicación']")
+            published = self.driver.find_element_by_xpath("//a[@aria-label='Vender artículo']")
             published.click()
             time.sleep(rd.randint(2.0, 5.0))
 
@@ -130,7 +120,7 @@ class publicfacebook:
         ds = self.datastore()
         print("Cantidad de productos a publicar: {}".format(len(ds)))
 
-        for iter in range(6, len(ds)):
+        for iter in range(20, len(ds)):
            # print("codigo del producto a publicar {}".format(ds.iloc[iter][9]))
 
         # insertamos imagen
@@ -170,20 +160,17 @@ class publicfacebook:
             try:
 
             # localizar la categoria correspondiente.
-
                 div_cat = self.driver.find_elements_by_xpath("//div[@class='oajrlxb2 gs1a9yip g5ia77u1 mtkw9kbi tlpljxtp qensuy8j ppp5ayq2 goun2846 ccm00jje s44p3ltw mk2mc5f4 rt8b4zig n8ej3o3l agehan2d sk4xxmp2 rq0escxv nhd2j8a9 a8c37x1j mg4g778l btwxx1t3 pfnyh3mw p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x tgvbjcpo hpfvmrgz jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso l9j0dhe7 i1ao9s8h esuyzwwr f1sip0of du4w35lb lzcic4wl ue3kfks5 pw54ja7n uo3d90p7 l82x9zwi abiwlrkh p8dawk7l']")
                 div_cat[8].click() # por defecto la categoria sera 'ropa femenina y zapatos'
                 time.sleep(rd.randint(5.0, 6.0))  
                 pass
 
-            except exceptions.ElementNotInteractableException:
+            except (exceptions.ElementNotInteractableException,
+                    exceptions.NoSuchElementException):
+
                 time.sleep(rd.randint(5.0, 6.0))
                 cat_default = driver.find_element_by_xpath('//div[@class="oajrlxb2 gs1a9yip g5ia77u1 mtkw9kbi tlpljxtp qensuy8j ppp5ayq2 goun2846 ccm00jje s44p3ltw mk2mc5f4 rt8b4zig n8ej3o3l agehan2d sk4xxmp2 rq0escxv nhd2j8a9 pq6dq46d mg4g778l btwxx1t3 pfnyh3mw p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x tgvbjcpo hpfvmrgz jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso l9j0dhe7 i1ao9s8h esuyzwwr f1sip0of du4w35lb lzcic4wl e72ty7fz qlfml3jp inkptoze qmr60zad abiwlrkh p8dawk7l p1ueia1e"]')
                 cat_default.click()
-
-            except:
-                print("no se selecciono ninguna categoria")
-                pass
 
             try:
 
@@ -232,6 +219,22 @@ class publicfacebook:
             if div_next:
                 div_next.click()
                 time.sleep(rd.randint(8.0, 10.0))
+                try:
+                    i = 0
+                    groups_publishid = driver.find_element_by_xpath('//div[@class="n00je7tq arfg74bv qs9ysxi8 k77z8yql i09qtzwb n7fi1qx3 b5wmifdl hzruof5a pmk7jnqg j9ispegn kr520xx4 c5ndavph art1omkt ot9fgl3s rnr61an3"]')
+                    while True:
+                        groups_publishid[i].click()
+                        time.sleep(3)
+                        i+=1
+                        if i >= 19:
+                            break
+                        else:
+                            continue
+                        pass
+                    pass
+                except:
+                    print("no se seleccionaron grupos")
+
                 div_publicar = driver.find_element_by_xpath("//div[@class='rq0escxv l9j0dhe7 du4w35lb j83agx80 pfnyh3mw taijpn5t bp9cbjyn owycx6da btwxx1t3 kt9q3ron ak7q8e6j isp2s0ed ri5dt5u2 rt8b4zig n8ej3o3l agehan2d sk4xxmp2 d1544ag0 tw6a2znq s1i5eluu qypqp5cg']")
                 div_publicar.click()
             else:
@@ -241,35 +244,26 @@ class publicfacebook:
                 div_save.click() # Guardar Borrador.
                 pass
             time.sleep(rd.randint(10.0, 11.0))
-            Create_public = driver.find_element_by_xpath('//a[@aria-label="Crear publicación"]')
-            Create_public.click()
+            try:
+                Create_public = driver.find_element_by_xpath('//a[@aria-label="Crear publicación"]')
+                Create_public.click()
+
+            except:
+                Create_public = driver.find_element_by_xpath('//a[@aria-label="Vender producto"]')
+                Create_public.click()
+                pass
             time.sleep(rd.randint(10.0, 11.0))
             _in = self.driver.find_element_by_xpath("//div[@class='bp9cbjyn rq0escxv j83agx80 cbu4d94t datstx6m taijpn5t tvx22r68 hv4rvrfc cifkjjtc dati1w0a oppkgyvt k1338c9a ntikgwu3 c34aag8n']")
             _in.click()
             time.sleep(rd.randint(10.0, 12.0))
             pass
-        pass
+
+        def CLOSE(self):
+            driver.close()
 
 #        divs[4].send_keys(str(ds.iloc[0][9])) # insercion de las etiquetas del producto
 #        time.sleep(rd.randint(2.0, 7.0))
 #        self.driver.find_element_by_xpath("//span[@class='a8c37x1j ni8dbmo4 stjgntxs l9j0dhe7 ltmttdrg g0qnabr5']").click() # pasar a siguiente para publicar
-
-    def page_fans_public(self):
-
-        DIVS_GROUPS_PUBLISHIDS = self.driver.find_elements_by_xpath("//div[@data-visualcompletion='ignore-dynamic']")
-        j = len(DIVS_GROUPS_PUBLISHIDS)
-        i = 0
-        while True:
-            DIVS_GROUPS_PUBLISHIDS[i]
-            i += 1
-            if i >= j: 
-                break
-            else:
-                continue
-            pass
-        self.driver.find_element_by_xpath("//span[class='a8c37x1j ni8dbmo4 stjgntxs l9j0dhe7 ltmttdrg g0qnabr5']").click()
-        pass
-    pass
 
 
 if __name__ == "__main__":
@@ -281,5 +275,6 @@ if __name__ == "__main__":
             passd=YOUR_FACEBOOK_PASSWD)
     publicar.intro_page()
     publicar.insert_details()
+    publicar.CLOSE()
     pass
 

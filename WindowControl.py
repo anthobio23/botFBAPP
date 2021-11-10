@@ -18,7 +18,7 @@ class ControlKeyboard:
         ag.press(self.key)
         ag.press(self.key)
         time.sleep(2)
-        if self.num_Product == 6:
+        if self.num_Product == 20:
             ag.press("down", presses=2)
         else:
             ag.press("down", presses=4)
@@ -30,7 +30,7 @@ class ControlKeyboard:
         time.sleep(2)
 
         # carpeta img_convert
-        for iter in range(0, 14): ag.press("down")
+        for iter in range(0, 13): ag.press("down")
         ag.press("enter")
         time.sleep(2)
         # nuevos productos    
